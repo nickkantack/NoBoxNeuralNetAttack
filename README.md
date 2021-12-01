@@ -1,6 +1,6 @@
 # NoBoxNeuralNetAttack
 
-This repository contains code to demonstrate a method of generating "No-Box" neural network attacks. Unlike "white-box" attacks (requiring knowledge of the internal workings of the target network) and "black-box" attacks (requiring query access to the target network), no-box attacks are generated without any knowledge of the target network (imaging if the attacks are intended for target networks that do not yet exist). Instead, it is possible to extract effective designs for adversarial attacks purely from an analysis of the statistics of the input space. In this way, the weights of a yet-to-be-trained neural network can be modeled as random variables whose statistics are calculable from knowledge of the input space.
+This repository contains code to demonstrate a method of generating "no-box" neural network attacks. Unlike "white-box" attacks (requiring knowledge of the internal workings of the target network) and "black-box" attacks (requiring query access to the target network), no-box attacks are generated without any knowledge of the target network (imaging if the attacks are intended for target networks that do not yet exist). Instead, it is possible to extract effective designs for adversarial attacks purely from an analysis of the statistics of the input space. In this way, the weights of a yet-to-be-trained neural network can be modeled as random variables whose statistics are calculable from knowledge of the input space.
 
 ## Running the experiment
 
