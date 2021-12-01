@@ -23,7 +23,7 @@ SAVE_AVERAGE_WEIGHTS = False
 
 # If you want to just see the results from a past experiment (without running one yourself)
 # set this flag to False
-GENERATED_FRESH_AVERAGE_WEIGHTS = False
+GENERATE_FRESH_AVERAGE_WEIGHTS = True
 
 # ---------------------------------------------------------------------------------------
 # ---------------------------------------------------------------------------------------
