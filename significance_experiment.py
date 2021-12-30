@@ -57,7 +57,7 @@ def main():
 	plot_significance(pixel_significance_by_class, title="Pixel significances by class")
 	
 	if GENERATED_FRESH_AVERAGE_WEIGHTS:
-		# Now see if randomly generated weights 
+		# Now see if randomly generated weights exhibit the statistics we expect
 		produce_many_neural_networks(x_train, y_train, num_classes)
 	else:
 		plot_significance(numpy.load("mean_weights.npy"), title="Average weights after training (past experiment)")
